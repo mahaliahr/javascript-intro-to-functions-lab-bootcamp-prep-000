@@ -19,7 +19,7 @@ function logWhisper(string) {
                 return "I love you, too.";
               } else if (string === string.toUpperCase){
                 return "YES INDEED!";
-              } else if (string === string.lowercase){
+              } else (string === string.lowercase){
                 return "I can't hear you!";
               }
 
