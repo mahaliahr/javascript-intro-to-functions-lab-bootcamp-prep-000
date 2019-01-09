@@ -23,8 +23,7 @@ function logWhisper(string) {
         return "I can't hear you!";
       } if (string === string.toUpperCase){
         return "YES INDEED!";
-        var mixedCase = "String"
-      } if (mixedCase === mixedCase.toLowerCase){
+      } if (string === string.toMixed){
         return "I love you, too.";
       }
 
